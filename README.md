@@ -45,4 +45,6 @@ Data Processing and ID3 Model Training & Testing
 
 Check outliers
 
-1. 
+1. Import the attack csv file into folder
+2. Run 'outliers.R' to mark the 1 and 0 in a new colunm and generate a new csv file.
+
