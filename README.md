@@ -11,9 +11,10 @@ Member 4: Yifei Han
 User Manual 
 
 Generate Attack Packets 
-To generate Dos attack packets, run ‘python3.8 Dos_SameIDSameFrameLength(Dos).py’. 
-To generate Fuzzy attack packets, run ‘python3.8 Format_RandomLog_Generator(Fuzzy).py’. 
-To generate Spoofing attack packets, run ‘python3.8 spoofing.py’ 
+
+1. To generate Dos attack packets, run ‘python3.8 Dos_SameIDSameFrameLength(Dos).py’. 
+2. To generate Fuzzy attack packets, run ‘python3.8 Format_RandomLog_Generator(Fuzzy).py’. 
+3. To generate Spoofing attack packets, run ‘python3.8 spoofing.py’ 
 
 Generate Normal CAN Bus traffic on a virtual interface
 Open a terminal, run ‘python3.8 setup.py’ to set up the SocketCAN interface and ready for sending CAN Bus traffic. Modify the filenames inside the file before use. If there is ‘0x’ before the ID in a normal traffic CSV file, run ‘python3.8 preprocess_traffic.py’ before setting up the normal traffic. 
