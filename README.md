@@ -42,3 +42,7 @@ Data Processing and ID3 Model Training & Testing
 
 1. Run ‘python3.8 ids_data_processing.py’ to convert ID and data fields from hexadecimal to decimal, and combine data fields into one column. 
 2. Run ‘ID3_model.ipynb’ to train and test the accuracy of the model. 
+
+Check outliers
+
+1. 
